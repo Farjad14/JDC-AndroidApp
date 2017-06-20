@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/donateus_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#254117"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_weight="2.38" >
+
+        <TextView
+            android:id="@+id/donateus1"
+            android:layout_width="306dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/donateus"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="334dp"
+        android:layout_height="169dp"
+        android:gravity="center"
+        android:src="@drawable/donation" />
+
+    <Button
+        android:id="@+id/btn_goback_donate_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/mission_vision_back" />
+
+</LinearLayout>

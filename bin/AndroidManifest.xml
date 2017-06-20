@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fajo.jdc"
+    android:versionCode="2"
+    android:versionName="2.0.0.1" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	    
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.fajo.jdc.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.MissionVision"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.About_Us"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.VolunteerRegister"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.VolunteerRescue"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.Gallery"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.ContactUs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.DonateUs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.MainPage2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.Education"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.Health"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.Disaster"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.Projects"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.facebook"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.fajo.jdc.Twitter"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+</manifest>

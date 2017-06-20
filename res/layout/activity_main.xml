@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9BBB59" >
+
+    <Button
+        android:id="@+id/btn_volunteer"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_mission"
+        android:layout_alignStart="@+id/btn_mission"
+        android:layout_below="@+id/btn_mission"
+        android:layout_toLeftOf="@+id/btn_gallery"
+        android:layout_toStartOf="@+id/btn_gallery"
+        android:text="@string/volunteer_register" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/btn_contact_us"
+        android:layout_alignEnd="@+id/btn_contact_us"
+        android:layout_marginTop="10dp"
+        android:text="        "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/titlejdc" />
+
+    <Button
+        android:id="@+id/btn_volunteer_rescue"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_volunteer"
+        android:layout_alignBottom="@+id/btn_volunteer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/resc_register" />
+
+    <Button
+        android:id="@+id/btn_about_us"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView02"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btn_projects"
+        android:layout_alignEnd="@+id/btn_projects"
+        android:text="@string/About_Us" />
+
+    <Button
+        android:id="@+id/btn_contact_us"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView02"
+        android:layout_alignLeft="@+id/btn_gallery"
+        android:layout_alignStart="@+id/btn_gallery"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/Contact_Us" />
+
+    <Button
+        android:id="@+id/btn_projects"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_gallery"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/btn_gallery"
+        android:layout_toStartOf="@+id/btn_gallery"
+        android:text="@string/projects" />
+
+    <Button
+        android:id="@+id/btn_goback_donate_us"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_gallery"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/donate" />
+
+    <Button
+        android:id="@+id/btn_gallery"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_contact_us"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/Gallery" />
+
+    <Button
+        android:id="@+id/btn_mission"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView1"
+        android:text="@string/activity_main_btn_mission" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="     "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/facebook_btn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btn_about_us"
+        android:layout_alignEnd="@+id/btn_about_us"
+        android:background="@drawable/facebooklogo" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_contact_us"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/btn_contact_us"
+        android:background="@drawable/twitterlogo"
+        android:text="    " />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_above="@+id/btn_goback_donate_us"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/jdccoverr" />
+
+</RelativeLayout>
+

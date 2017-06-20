@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9BBB59"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/titlejdc" />
+
+    <Button
+        android:id="@+id/projects"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/projectstxt" />
+
+    <Button
+        android:id="@+id/disaster"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disastertxt" />
+
+    <Button
+        android:id="@+id/health"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/healthtxt" />
+
+    <Button
+        android:id="@+id/education"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/educationtxt" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:src="@drawable/fourlogos" />
+
+    <Button
+        android:id="@+id/btn_goback_maingactivity2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="@string/mission_vision_back" />
+
+</LinearLayout>
